@@ -115,8 +115,6 @@ body {
   justify-content: space-between;
    border-top: solid 1px green;
   border-bottom: solid 1px green;
-  
-
 }
 
 .div-1, .div-2, .div-3 {
@@ -124,7 +122,7 @@ body {
   color: green;
   line-height: 1.2em;
   font-size: .8em;
-  height: 20em;
+  height: auto;
   display: flex;
   width: 32%;
   align-items: center;
