@@ -101,35 +101,48 @@ html {
   height: 100%;
 }
 
-header, footer{
-    display: flex;
+body {
+  font-family: 'Tenali Ramakrishna', sans-serif;;
+  font-size: 1.4em;
+  height: auto;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main h2 {
-display: flex;
+.flex-container {
+  font-weight: 400;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1200px;
+  align-items: center;
   justify-content: center;
-  align-items:center;
-}
-
-
-body {
-  font-family: 'Tenali Ramakrishna', sans-serif;;
-  padding: 2em;
-  font-size: 1.4em;
-  height: 100%;
   
 }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 400;
-  display: flex;
-  justify-content: space-between;
-   border-top: solid 1px green;
-  border-bottom: solid 1px green;
+header {
+    padding-top: 2em;
 }
+
+footer, main {
+    padding: 2em;
+}
+
+header, footer, main{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.wrapper {
+border-top: solid .5px green;
+  border-bottom: solid .5px green;
+  display: flex;
+  flex-flow: row wrap;
+}
+
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
@@ -138,10 +151,11 @@ body {
   font-size: 1.2em;
   height: auto;
   display: flex;
-  width: 32%;
-  padding: 3%;
+  width: 29%;
   align-items: center;
   justify-content: center;
+  padding: 2%;
+
 }
 
 .div-1 {
@@ -155,6 +169,8 @@ body {
 h1, h2, p {
     font-family: 'Tenali Ramakrishna', sans-serif;
     color: green;
+    margin: 0;
+    height: auto;
 }
 
 
